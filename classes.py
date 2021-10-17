@@ -1,3 +1,4 @@
+# Class example 1
 class Point():
     def __init__(self, f_input, s_input):
         self.x = f_input
@@ -5,9 +6,10 @@ class Point():
 
 p = Point(10, 30)
 
-#print(p.x)
-#print(p.y)
+print(p.x)
+print(p.y)
 
+# Class example 2
 class Stadium():
     def __init__(self, capacity):
         self.capacity = capacity
